@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+nav ul li, footer ul li {
+  text-decoration: none;
+  list-style: none;
+  list-style: none;
+}
+.nav-first {
+  margin-top: 0;
+  background-color: black;
+  color: white;
+}
+
+.nav-first ul li, .nav-second ul li {
+  display: inline-block;
+}
+
+.nav-second ul li {
+  margin: 0px 30px;
+}
+
+.nav-second img {
+  width: 180px;
+  height: auto;
+}
