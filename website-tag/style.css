@@ -1,0 +1,80 @@
+.banner {
+  background-size: cover;
+  height: 30rem;
+}
+
+.banner-container {
+  padding-top: 300px;
+}
+
+.card-right {
+  width: 25rem;
+}
+
+.img-right {
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-position: -70px 0;
+  background-repeat: no-repeat;
+}
+
+.footer {
+  height: 200px;
+}
+
+@media (max-width: 768px) {
+  /* Mobile */
+  .banner {
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    background-position: -160px;
+  }
+
+  .banner-container {
+    padding-bottom: 20px;
+  }
+
+  .container {
+    margin: 0px auto;
+  }
+
+  .column-left {
+    margin: 0px auto;
+    width: 100%;
+  }
+
+  .column-right {
+    margin: 0px auto;
+  }
+
+  .card-right {
+    width: 95%;
+    margin: 0px 10px;
+  }
+
+  #video-anuncio {
+    /* width: 150%; */
+  }
+
+  .container-jeep {
+    margin-top: 20px;
+  }
+
+  .img-right {
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-position: -105px 0;
+    background-repeat: no-repeat;
+  }
+
+  .img-footer {
+    width: 120%;
+  }
+  .text-footer {
+    font-size: small;
+  }
+
+}
