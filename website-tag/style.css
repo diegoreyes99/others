@@ -11,6 +11,14 @@
   width: 25rem;
 }
 
+.img-right-diff {
+  width: 85%;
+  height: auto;
+  background-size: cover;
+  background-position: -70px 0;
+  background-repeat: no-repeat;
+}
+
 .img-right {
   width: 100%;
   height: auto;
@@ -23,7 +31,7 @@
   height: 200px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   /* Mobile */
   .banner {
     background-size: cover;
@@ -62,6 +70,7 @@
     margin-top: 20px;
   }
 
+
   .img-right {
     width: 100%;
     height: auto;
@@ -75,6 +84,35 @@
   }
   .text-footer {
     font-size: small;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* Tablet */
+  .img-right-diff {
+    width: 40%;
+    height: auto;
+    background-size: cover;
+    background-position: -10px 0;
+    background-repeat: no-repeat;
+  }
+
+  .img-right {
+    width: 40%;
+    height: auto;
+    background-size: cover;
+    background-position: -10px 0;
+    background-repeat: no-repeat;
+  }
+  .card-right {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .column-left {
+    width: 100%;
+    margin: 0 auto;
   }
 
 }

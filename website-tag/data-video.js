@@ -1,4 +1,4 @@
-console.log('Test');
+// console.log('Test');
 const videoAnuncio = document.getElementById('video-anuncio');
 
 // Escuchar el avance del video
@@ -23,7 +23,7 @@ videoAnuncio.addEventListener('timeupdate', () => {
     `;
     document.body.insertAdjacentHTML('beforeend', pixelCuartil1);
   } else if (porcentajeAvance >= 25 && porcentajeAvance < 50) {
-    window.dataLayer = window.dataLayer || [];  // Inicializar dataLayer si no existe
+    window.dataLayer = window.dataLayer || [];
     window.dataLayer.push({
       'event': 'Cuartil_2',
       'porcentaje': 50,
@@ -37,7 +37,7 @@ videoAnuncio.addEventListener('timeupdate', () => {
     `;
     document.body.insertAdjacentHTML('beforeend', pixelCuartil2);
   } else if (porcentajeAvance >= 50 && porcentajeAvance < 100) {
-    window.dataLayer = window.dataLayer || [];  // Inicializar dataLayer si no existe
+    window.dataLayer = window.dataLayer || [];
     window.dataLayer.push({
       'event': 'Cuartil_3',
       'porcentaje': 75,
@@ -51,8 +51,7 @@ videoAnuncio.addEventListener('timeupdate', () => {
     `;
     document.body.insertAdjacentHTML('beforeend', pixelCuartil3);
   } else {
-    // Este else cubre el caso donde el porcentajeAvance es 100 o más
-    window.dataLayer = window.dataLayer || [];  // Inicializar dataLayer si no existe
+    window.dataLayer = window.dataLayer || [];  //
     window.dataLayer.push({
       'event': 'Cuartil_4',
       'porcentaje': 100,
